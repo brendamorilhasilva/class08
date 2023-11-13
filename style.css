@@ -1,0 +1,188 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body * {
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+/* INICIO 1 NAV TOP */
+
+/* HEADER */
+header{
+  height: 55px;
+  background-color:black !important;
+  width: auto;
+}
+/* #COURSES */
+#courses{
+  font-size: 20px;
+  color: red;
+  width: 10%;
+  position: absolute;
+  text-decoration: none;
+}
+/* #SEARCH.INPUT */
+.input{
+   position: absolute;
+   left: 200px;
+   width: 200px;
+}
+/* IMG.KHAN */
+#imgkhan{
+   left: 500px;
+   width: 300px;
+   height: auto;
+   position: absolute;
+}
+
+/* UL */
+ ul{
+  padding-inline-start: 0;
+  margin: 0;
+  padding: 0;
+ }
+
+/* COURSES NAV COM SETA PARA BAIXO (como adicionar esse sinal para preparar o comando para o Java?) */
+/* nav > a{ 
+  float: left;
+  text-align: left;
+  font-size: 35px;
+  color: blue !important;
+} */
+
+
+/* SEACRH NAV COM BARRA DE PESQUISA (como inserir input de pesquisa e estilizar?)*/
+/* nav > a + form > input{  
+  float: left;
+  text-align: left;
+  font-size: 35px;
+  color: magenta !important;
+  width: 33%;
+  padding: 30px;
+} */
+
+/* LOGO KHAN ACADEMY (anexar imagem, padding para ajustar localizacao?)*/
+/* nav img{
+  float: left;
+  width: 20px;
+  height: 20px;
+  padding: 30px;
+} */
+/* KHAN ACADEMY LOGO */ 
+/* header h2{
+  color: red !important;
+  text-align: center;
+  font-size: 40px;
+  width: 33%;
+  padding: 30px;
+} */
+/* NAVS DIREITAS */
+/* header ul{
+  float: right;
+  text-align: right;
+  font-size: 35px;
+  color: blue !important;
+  width: 33%;
+  padding: 30px;
+} */
+
+/* header nav li{
+  float: right;
+  width: 33%;
+  padding: 30px;
+} */
+/* FIM 1 NAV TOP */
+
+/* INICIO MAIN */
+
+/* IMG PRINCIPAL */
+section > img{
+   float: left;
+   height: 600px;
+   width: 50%;
+   padding: 50px;
+}
+
+/* H1 (como adicionar estilo de duas linhas azuis embaixo do texto, imagem ou rule?)*/
+main > section + section > h1{
+   font-size: 70px;
+   color: black ;
+   text-align: center;
+   padding-right: 40px;
+   padding-top: 30px;
+   float: right;
+}
+
+/* WE'RE A  NONPROFIT */
+main > section + section h1 + p{
+   font-size: 25px;
+   color: black ;
+   text-align: left;
+   padding-right: 40px;
+   float: right;
+}
+/* HREFS CLASS (elas estao sentadas uma ao lado da outra? o gap lado esta funcionando?) */
+main > section + section h1 + p + nav{
+   font-size: 25px;
+   color: white ;
+   padding-right: 40px;
+   float: right;
+   gap: 4px;
+}
+.Learners{
+  background-color: blue;
+  font-size: 25px;
+  color: white ;
+  border: blue 2px;
+  width: 10px;
+  height: 6px;
+}
+.Teachers{
+  background-color: blue;
+  font-size: 25px;
+  color: white ;
+  border: blue 2px;
+  width: 10px;
+  height: 6px;
+}
+.Districts{
+  background-color: blue;
+  font-size: 25px;
+  color: white ;
+  border: blue 2px;
+  width: 10px;
+  height: 6px;
+}
+.Parents{
+  background-color: blue;
+  font-size: 25px;
+  color: white ;
+  border: blue 2px;
+  width: 10px;
+  height: 6px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
